@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+<head>
+<style>
+	
+body {
+	font-family: Segoe, "Segoe UI";
+	font-size: 20px;
+	align-content: center;
+	background-color: cornflowerblue;				
+	}
+	
+	header {
+		font-size: 120%;
+		align-content: center;
+	}	
+	
+ul {
+  align-content: center;
+  position: sticky;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  padding-left: 5%;
+  width: 15%;
+  align-content: center;
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  text-align: center;	
+  display: inline-block;
+}
+
+.dropdown-content {	
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+	* {
+  box-sizing: border-box;
+}
+	
+	body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: #0AF314;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #0015FF;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 100%;
+}
+
+.container {
+	width:100%;
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+</style>
+<body>
+
+
+	
+</style>
+<link href="Website.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+	<center>
+	<img src="Assets/Images/PP Header Logo.png" width="1198" height="157" alt=""/>
+		</header>
+	</center>
+<ul>
+  <li><a href="Index.html">Home</a></li>
+  	<li><a href="about_us.html">About Us</a></li>
+	<li><a href="Pets.html">Pets</a></li>
+	<li><a href="Products.html">Products</a></li>
+	<li><a href="Contact.html">Contact</a></li>
+	<p><br>
+	<font size="-3">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SignUp</title>
+    <link href="twoColLiqLtHdr.css" rel="stylesheet" type="text/css" />
+    <link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+    <link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+    <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+    <script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+    <script type="text/javascript" src="WarnCookies.js"></script>	
+<link rel="stylesheet" type="text/css" href="Cookie.css">
+</font></p>
+	<header align="center">    
+   
+<div align="center">
+  <script type="text/javascript" src="WarnCookies.js"></script>	
+<link href="Cookie.css" rel="stylesheet" type="text/css" />
+<div id="cookiesWarning">
+</div>
+<script language = "JavaScript" type="text/JavaScript">
+checkCookieExist();
+   </script>
+</ul>
+		
+		
+		
+		<div class="row">
+  <div class="column">
+  	  <font size="+2" style="text-align: justify">
+	  <form action="/action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Sign Up or Login</h1>
+    <p>Please fill in this form to create an account or enter your details to login.</p>
+    <hr>
+
+    <input type="email" placeholder="Enter Email" name="email" required>
+    
+    <p>
+    </p>
+
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    
+
+    <div class="clearfix">
+      <a href="Index.html">
+      <button type="button" class="cancelbtn">Login</button>
+      </a>      <a href="Index.html">
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </a>    </div>
+  </div>
+</form>
+	
+		<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3");
+</script>
+  </div>
+  <div class="column">
+	  <h1>Terms and Conditions Apply</h1><a href="T&Cs.html"><p>See here for more details</p></a>
+  </div>
+</div>
+<footer>
+		<ul>	
+  			<li><a href="https://www.facebook.com/pages/category/Pet-Supplies/Pampered-Pets-693414787368607/"><img src="Assets/Images/FacebookLogo.png" alt="Facebook" width="60" height="60"></a></li>
+  			<li><a href="https://www.instagram.com/thepampered.pets/"><img src="Assets/Images/InstagramLogo.png" alt="Instagram" width="60" height="60"></a></li>
+			<li><a href="https://twitter.com/pamper_pets"><img src="Assets/Images/TwitterLogo.png" alt="Twitter" width="60" height="60"></a></li>
+			<li><a href="SignUp.html"><p>Login</p></a></li>
+			<li><a href="SignUp.html"><p>SignUp</p></a></li>
+			<li><a href="T&Cs.html"><p>T&Cs</p></a></li>
+		</ul>
+	</footer>
+</body>
+</html>

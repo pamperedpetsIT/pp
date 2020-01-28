@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+#cookiesWarning {
+		font-family: Verdana, Geneva, sans-serif;
+}
+
+#cookiesWarningActive {
+	position: -webkit-sticky;
+ 	position: sticky;
+  	top: 0;
+	background: #F000;
+	width: 80%;
+	margin: 5px;
+	padding: 5px;
+}
+
+#cookiesWarningActive small {
+	position: -webkit-sticky;
+ 	position: sticky;
+  	top: 0;
+	background: #F00;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	color: #000;
+	border: none;
+	border-radius: 7px;
+	box-shadow: 4px 4px 2px #233e5b;
+	width: 40%;
+}
+
+#readMoreURL  a:link {
+	position: -webkit-sticky;
+ 	position: sticky;
+  	top: 0;
+	text-decoration: underline;
+	color: #000;
+}
+#readMoreURL  a:visited {
+	text-decoration: underline;
+	color: #000;
+}
+
+#text {
+	
+}
+
+#warning {
+	
+}
+
+#cookiesDisabled {
+	
+}
+
+.checkbox {
+	
+}
+
+.acceptance {
+	position: -webkit-sticky;
+ 	position: sticky;
+  	top: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.button {
+	
+}
